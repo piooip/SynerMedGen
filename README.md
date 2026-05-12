@@ -66,13 +66,6 @@ We construct three understanding tasks from paired medical synthesis samples:
 | **Modality Identification (MI)** | Identify medical imaging modalities. | Makes modality an explicit controllable factor. |
 | **Transformation Instruction Alignment (TIA)** | Align paired visual changes with textual transformation instructions. | Grounds what should change and what should remain invariant. |
 
-### Two-Stage Training
-
-| Stage | Name | Description |
-| --- | --- | --- |
-| **Stage I** | Generation-Aligned Understanding (GAU) | Trains the understanding pathway on CTS, MI, and TIA to learn synthesis-sufficient representations. |
-| **Stage II** | Unified Conditional Generation (UCG) | Optimizes conditional medical image synthesis in VAE latent space while transferring the Stage I representation. |
-
 ## SynerMed Dataset
 
 SynerMed is a unified paired dataset for medical image synthesis and generation-aligned understanding. It integrates multiple public medical synthesis resources, including BraTS, SynthRAD2023, and AutoPET.
