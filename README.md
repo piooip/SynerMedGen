@@ -6,6 +6,12 @@ Weiren Zhao, Yi Dong, Cheng Chen · The University of Hong Kong · ICML 2026
 
 [Code](https://github.com/piooip/SynerMedGen) · [SynerMed dataset](https://huggingface.co/datasets/tuy55/SynerMed) · [BAGEL base model](https://huggingface.co/ByteDance-Seed/BAGEL-7B-MoT)
 
+<p align="center">
+  <a href="images/method_overview.pdf">
+    <img src="images/method_overview.png" alt="SynerMedGen method overview" width="95%">
+  </a>
+</p>
+
 SynerMedGen studies generation-aligned understanding for medical image synthesis, building on BAGEL. This guide covers the source code, dataset setup, fine-tuning, and batch image generation.
 
 ## Release status
