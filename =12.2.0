@@ -1,0 +1,35 @@
+2 channel Terms of Service accepted
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Solving environment: \ done
+
+## Package Plan ##
+
+  environment location: /home/defaultuser/miniconda3/envs/bagel
+
+  added / updated specs:
+    - libstdcxx-ng
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libstdcxx-ng-13.2.0        |       hc0a3c3a_7         3.7 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         3.7 MB
+
+The following packages will be UPDATED:
+
+  libstdcxx-ng       pkgs/main::libstdcxx-ng-11.2.0-h12345~ --> conda-forge::libstdcxx-ng-13.2.0-hc0a3c3a_7 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...libstdcxx-ng-13.2.0  | 3.7 MB    |            |   0% libstdcxx-ng-13.2.0  | 3.7 MB    | ##9        |  29% libstdcxx-ng-13.2.0  | 3.7 MB    | ########## | 100% libstdcxx-ng-13.2.0  | 3.7 MB    | ########## | 100%                                                       done
+Preparing transaction: / done
+Verifying transaction: \ | / - done
+Executing transaction: | done
