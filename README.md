@@ -14,14 +14,6 @@ Weiren Zhao, Yi Dong, Cheng Chen · The University of Hong Kong · ICML 2026
 
 SynerMedGen studies generation-aligned understanding for medical image synthesis, building on BAGEL. This guide covers the source code, dataset setup, fine-tuning, and batch image generation.
 
-## Release status
-
-The source package contains the model implementation, training entry point, medical editing inference entry point, and dataset loaders. Fine-tuned SynerMedGen weights are not bundled; download the BAGEL initialization below or supply your own trained checkpoint.
-
-As of the release audit on **2026-09-06**, the dataset repository was reachable but `SynerMed.zip` was not yet listed on its main branch. The download command below becomes usable once the archive upload is committed. The public code repository still contained the project page; the commands require a checkout containing `train/`, `data/`, `modeling/`, and `eval/`.
-
-The training example below describes the supplied mixed understanding/generation configuration. Separate Stage I/Stage II recipes, the inter-stage weight-transfer procedure, and the exact medical evaluation protocol are not yet included, so this example alone is not a complete reproduction of the paper.
-
 ## Installation
 
 Use Linux, Python 3.10, and NVIDIA GPUs compatible with the installed CUDA/PyTorch and FlashAttention builds. The training example uses eight GPUs. Inference loads a complete model on each GPU; increasing the process count distributes images, not model parameters.
